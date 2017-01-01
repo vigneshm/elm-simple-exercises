@@ -6,4 +6,5 @@ A set of simple exercises to get familiar with [elm](http://elm-lang.org) progra
 2. `elm package install`
 3. `elm reactor`
 4. Open the given url in your browser
-5. Click on a specific exercise and solve them until all tests pass
+5. Click on a specific exercise and solve them until all tests pass.
+6.
