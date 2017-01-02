@@ -67,3 +67,15 @@ testGreetForFemale =
     test "greet function for female" <|
         \() ->
             greet "female" |> Expect.equal "Hello Ma'am"
+
+
+isMultipleOf3 : Int -> Bool
+isMultipleOf3 num =
+    False
+
+
+testIsMultipleOf3 : Test
+testIsMultipleOf3 =
+    test "isMultipleOf3 function for 6" <|
+        \() ->
+            isMultipleOf3 6 |> Expect.equal True
