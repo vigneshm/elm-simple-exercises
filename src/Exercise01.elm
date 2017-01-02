@@ -43,3 +43,27 @@ testAdd =
     test "add function" <|
         \() ->
             add 5 3 |> Expect.equal 8
+
+
+greet : String -> String
+greet gender =
+    {-
+       `greet` function takes gender (male or female) and should return
+       "Hello Sir" for male and "Hello Ma'am" for female.
+       (hint: http://elm-lang.org/docs/syntax#conditionals)
+    -}
+    ""
+
+
+testGreetForMale : Test
+testGreetForMale =
+    test "greet function for male" <|
+        \() ->
+            greet "male" |> Expect.equal "Hello Sir"
+
+
+testGreetForFemale : Test
+testGreetForFemale =
+    test "greet function for female" <|
+        \() ->
+            greet "female" |> Expect.equal "Hello Ma'am"
