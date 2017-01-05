@@ -14,6 +14,10 @@ main : Test.Runner.Html.TestProgram
 main =
     describe "Simple test"
         [ testStringEquality
+        , testAdd
+        , testGreetForFemale
+        , testGreetForMale
+        , testIsMultipleOf3
         ]
         |> Test.Runner.Html.run
 
